@@ -1,3 +1,3 @@
 const hello = require('project-c/src');
 
-hello('A');
+hello('B');

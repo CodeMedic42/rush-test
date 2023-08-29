@@ -1,0 +1,47 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/project-a': file:./projects/project-a.tgz
+  '@rush-temp/project-b': file:./projects/project-b.tgz
+  '@rush-temp/project-c': file:./projects/project-c.tgz
+  '@rush-temp/project-d': file:./projects/project-d.tgz
+  '@rush-temp/project-e': file:./projects/project-e.tgz
+
+dependencies:
+  '@rush-temp/project-a': file:projects/project-a.tgz
+  '@rush-temp/project-b': file:projects/project-b.tgz
+  '@rush-temp/project-c': file:projects/project-c.tgz
+  '@rush-temp/project-d': file:projects/project-d.tgz
+  '@rush-temp/project-e': file:projects/project-e.tgz
+
+packages:
+
+  file:projects/project-a.tgz:
+    resolution: {integrity: sha512-K22sx13QL2uGuA/DDvgwG7Cm/j+OjxRhGD5wZFImHxhh16DvvUf1UgN4tt3Kgrzx4Dx/JvteydgxMc3eNxAZdQ==, tarball: file:projects/project-a.tgz}
+    name: '@rush-temp/project-a'
+    version: 0.0.0
+    dev: false
+
+  file:projects/project-b.tgz:
+    resolution: {integrity: sha512-bvu0dBb0jxKFw2h2K12RfxaxzifMflmStXF+eE0HXR/n9RuhQtN33ICtOE1pEuF+BNRAauSuqyskd9vdJilorA==, tarball: file:projects/project-b.tgz}
+    name: '@rush-temp/project-b'
+    version: 0.0.0
+    dev: false
+
+  file:projects/project-c.tgz:
+    resolution: {integrity: sha512-Hhh3JJ638qHxDwuC+ollnPIU8u4wCdB0SRjAuSSV4ybTFfxEjnpkTJcNpmaHzoH7mHYMbSbMNUEkMFH3rhV4gA==, tarball: file:projects/project-c.tgz}
+    name: '@rush-temp/project-c'
+    version: 0.0.0
+    dev: false
+
+  file:projects/project-d.tgz:
+    resolution: {integrity: sha512-2cPFm9m3Q4r52ZUAnW42mCl+r9eNqkx0L+zMd4XCmKxnUlOcup3ECa8+4J8sTNdNdHBSFCcxbEi/7OTl4x1Vww==, tarball: file:projects/project-d.tgz}
+    name: '@rush-temp/project-d'
+    version: 0.0.0
+    dev: false
+
+  file:projects/project-e.tgz:
+    resolution: {integrity: sha512-wE8PvwbdfG8w7u/0BQe/p3LS6dv7ulijQxhb86njNV7wJnMcJeyWKz1Z1KrebsYS98O+QSohmiTrTjGT7VASbA==, tarball: file:projects/project-e.tgz}
+    name: '@rush-temp/project-e'
+    version: 0.0.0
+    dev: false

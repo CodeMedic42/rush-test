@@ -26,7 +26,11 @@
    * Specify one of: "pnpmVersion", "npmVersion", or "yarnVersion".  See the Rush documentation
    * for details about these alternatives.
    */
-  "pnpmVersion": "6.7.1",
+   "pnpmVersion": "6.16.1",
+
+   "pnpmOptions": {
+    // "useWorkspaces": true,
+  },
 
   // "npmVersion": "6.14.15",
   // "yarnVersion": "1.9.4",
@@ -152,7 +156,10 @@
   //    */
   //   // "ignoredNpmScopes": ["@types"]
   // },
-
+  "approvedPackagesPolicy": {
+    "reviewCategories": ["apps", "packages", "tools"],
+    "ignoredNpmScopes": ["@types"]
+  },
   /**
    * If you use Git as your version control system, this section has some additional
    * optional features you can use.
