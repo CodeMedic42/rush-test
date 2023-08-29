@@ -102,13 +102,13 @@
   {
     "definitionName": "lockStepVersion",
     "policyName": "group-x",
-    "version": "0.0.1-rc.0",
+    "version": "1.0.1-rc.0",
     "nextBump": "prerelease"
   },
   {
       "definitionName": "lockStepVersion",
-      "policyName": "group-t",
-      "version": "0.0.1-rc.0",
+      "policyName": "group-y",
+      "version": "1.0.1-rc.0",
       "nextBump": "prerelease"
   }
 ]
