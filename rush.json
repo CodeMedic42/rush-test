@@ -28,9 +28,9 @@
    */
    "pnpmVersion": "6.16.1",
 
-   "pnpmOptions": {
-    // "useWorkspaces": true,
-  },
+  // "pnpmOptions": {
+  //   "useWorkspaces": true,
+  // },
 
   // "npmVersion": "6.14.15",
   // "yarnVersion": "1.9.4",
